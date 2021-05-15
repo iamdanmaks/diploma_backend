@@ -1,0 +1,179 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-15 22:34+0300\n"
+"PO-Revision-Date: 2021-05-15 21:09+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: service/auth_service.py:23
+msgid "Successfully logged in."
+msgstr "Вхід був успішним"
+
+#: service/auth_service.py:30
+msgid "email or password does not match."
+msgstr "Пошта чи пароль не співпадають"
+
+#: service/auth_service.py:38
+msgid "Try again"
+msgstr "Спробуйте знов"
+
+#: service/auth_service.py:61 service/auth_service.py:127
+msgid "Provide a valid auth token."
+msgstr "Надайте працюючий токен"
+
+#: service/auth_service.py:78 service/organization_service.py:145
+#: service/user_service.py:203 service/user_service.py:235
+#: service/user_service.py:274
+msgid "User not found"
+msgstr "Користувача не знайдено"
+
+#: service/auth_service.py:102 service/organization_service.py:27
+#: service/organization_service.py:64
+msgid "Organization not found"
+msgstr "Організацію не знайдено"
+
+#: service/blacklist_service.py:15
+msgid "Successfully logged out."
+msgstr "Вихід був успішним"
+
+#: service/organization_service.py:58
+msgid "Organization was successfully edited"
+msgstr "Організацію успішно відредаговано"
+
+#: service/organization_service.py:87 service/organization_service.py:171
+#: service/user_service.py:286
+msgid "Something went wrong"
+msgstr "Щось пішло неправильно"
+
+#: service/organization_service.py:92
+msgid "Organization was successfully deleted"
+msgstr "Організацію успішно видалено"
+
+#: service/organization_service.py:102 service/organization_service.py:120
+msgid "Organization is not found"
+msgstr "Орагнізацію не знайдено"
+
+#: service/organization_service.py:109
+msgid "Key is found"
+msgstr "Ключ знайдено"
+
+#: service/organization_service.py:134
+msgid "Key is changed"
+msgstr "Ключ змінено"
+
+#: service/organization_service.py:153
+msgid "Organization admin access was changed"
+msgstr "Адміністраторський доступ для користувача змінено"
+
+#: service/organization_service.py:176
+msgid "Organization member was successfully deleted"
+msgstr "Член організації був успішно видалений"
+
+#: service/query_service.py:37 service/query_service.py:73
+msgid "Query was processed"
+msgstr "Запит опрацьовано"
+
+#: service/query_service.py:57
+msgid "Not enough free tokens"
+msgstr "Недостатньо безкоштовних токенів"
+
+#: service/user_service.py:46
+msgid ""
+"Organization already exists. You should be invited or change the name of "
+"organization"
+msgstr ""
+"Організація вже існує. Ви маєте бути запрошені або змініть ім'я вашої "
+"організації"
+
+#: service/user_service.py:64
+msgid "Successfully registered."
+msgstr "Успішно зареєстровано"
+
+#: service/user_service.py:70
+msgid "User already exists. Please Log in."
+msgstr "Користувач вже існує. Увійдіть, будь ласка"
+
+#: service/user_service.py:94 service/user_service.py:190
+msgid "The confirmation link is invalid or has expired"
+msgstr "Посилання для підтвердження не працює або строк використання закінчився"
+
+#: service/user_service.py:102
+msgid "Email was confirmed"
+msgstr "Пошту підтверджено"
+
+#: service/user_service.py:163 service/user_service.py:179
+msgid "New user was invited"
+msgstr "Нового користувача запрошено"
+
+#: service/user_service.py:198
+msgid "Password was reset"
+msgstr "Пароль змінено"
+
+#: service/user_service.py:254
+msgid "Username is already taken"
+msgstr "Користувацьке ім'я зайняте"
+
+#: service/user_service.py:262
+msgid "Password is wrong"
+msgstr "Пароль неправильний"
+
+#: service/user_service.py:268
+msgid "Profile was successfully edited"
+msgstr "Профіль було успішно відредаговано"
+
+#: service/user_service.py:291
+msgid "Profile was successfully deleted"
+msgstr "Профіль було успішно видалено"
+
+#: service/voice_service.py:27
+msgid "Voice was saved"
+msgstr "Голос збережено"
+
+#: service/voice_service.py:42
+msgid "Voice data was edited"
+msgstr "Дані про голос відредаговано"
+
+#: service/voice_service.py:47 service/voice_service.py:72
+#: service/voice_service.py:92
+#, fuzzy
+msgid "Voice not found"
+msgstr "Користувача не знайдено"
+
+#: service/voice_service.py:66
+msgid "Voice was removed"
+msgstr "Голос прибрано"
+
+#: util/decorator.py:22 util/decorator.py:87
+msgid "This operations should be done from user account"
+msgstr "Ці операції мають робитись лише з користувацьокого профілю"
+
+#: util/decorator.py:29 util/decorator.py:58 util/decorator.py:94
+msgid "Confirm your email"
+msgstr "Підтвердіть пошту"
+
+#: util/decorator.py:36 util/decorator.py:65 util/decorator.py:101
+msgid "Your organization is still not confirmed"
+msgstr "Ваше членство в організація ще не підтверджена"
+
+#: util/decorator.py:108
+msgid "You are not organization admin"
+msgstr "Ви не адміністратор організації"
+
+#: util/decorator.py:131
+msgid "admin token required"
+msgstr "Лише для адміністраторів"
+

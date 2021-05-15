@@ -1,0 +1,21 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+    <a class="text-center" href="{{url_for('backup.copy')}}" download>{{gettext('Backup')}}</a>
+
+    <form class="container center_div" action="{{url_for('backup.restore')}}" method="POST" enctype="multipart/form-data">
+        <div class="form-group text-center">
+            <label for="exampleFormControlFile1">{{gettext('Roll back to backup')}}</label>
+            <input type="file" class="form-control-file" name="backup">
+            <br>
+            <button type="submit" class="btn btn-primary mb-2">{{gettext('Submit')}}</button>
+        </div>
+    </form>
+
+    <style>
+        .center_div{
+            margin: 0 auto;
+            width:20% /* value of your choice which suits your alignment */
+        }
+    </style>
+{% endblock %}

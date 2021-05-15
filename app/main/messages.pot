@@ -1,0 +1,174 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-15 22:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: service/auth_service.py:23
+msgid "Successfully logged in."
+msgstr ""
+
+#: service/auth_service.py:30
+msgid "email or password does not match."
+msgstr ""
+
+#: service/auth_service.py:38
+msgid "Try again"
+msgstr ""
+
+#: service/auth_service.py:61 service/auth_service.py:127
+msgid "Provide a valid auth token."
+msgstr ""
+
+#: service/auth_service.py:78 service/organization_service.py:145
+#: service/user_service.py:203 service/user_service.py:235
+#: service/user_service.py:274
+msgid "User not found"
+msgstr ""
+
+#: service/auth_service.py:102 service/organization_service.py:27
+#: service/organization_service.py:64
+msgid "Organization not found"
+msgstr ""
+
+#: service/blacklist_service.py:15
+msgid "Successfully logged out."
+msgstr ""
+
+#: service/organization_service.py:58
+msgid "Organization was successfully edited"
+msgstr ""
+
+#: service/organization_service.py:87 service/organization_service.py:171
+#: service/user_service.py:286
+msgid "Something went wrong"
+msgstr ""
+
+#: service/organization_service.py:92
+msgid "Organization was successfully deleted"
+msgstr ""
+
+#: service/organization_service.py:102 service/organization_service.py:120
+msgid "Organization is not found"
+msgstr ""
+
+#: service/organization_service.py:109
+msgid "Key is found"
+msgstr ""
+
+#: service/organization_service.py:134
+msgid "Key is changed"
+msgstr ""
+
+#: service/organization_service.py:153
+msgid "Organization admin access was changed"
+msgstr ""
+
+#: service/organization_service.py:176
+msgid "Organization member was successfully deleted"
+msgstr ""
+
+#: service/query_service.py:37 service/query_service.py:73
+msgid "Query was processed"
+msgstr ""
+
+#: service/query_service.py:57
+msgid "Not enough free tokens"
+msgstr ""
+
+#: service/user_service.py:46
+msgid ""
+"Organization already exists. You should be invited or change the name of "
+"organization"
+msgstr ""
+
+#: service/user_service.py:64
+msgid "Successfully registered."
+msgstr ""
+
+#: service/user_service.py:70
+msgid "User already exists. Please Log in."
+msgstr ""
+
+#: service/user_service.py:94 service/user_service.py:190
+msgid "The confirmation link is invalid or has expired"
+msgstr ""
+
+#: service/user_service.py:102
+msgid "Email was confirmed"
+msgstr ""
+
+#: service/user_service.py:163 service/user_service.py:179
+msgid "New user was invited"
+msgstr ""
+
+#: service/user_service.py:198
+msgid "Password was reset"
+msgstr ""
+
+#: service/user_service.py:254
+msgid "Username is already taken"
+msgstr ""
+
+#: service/user_service.py:262
+msgid "Password is wrong"
+msgstr ""
+
+#: service/user_service.py:268
+msgid "Profile was successfully edited"
+msgstr ""
+
+#: service/user_service.py:291
+msgid "Profile was successfully deleted"
+msgstr ""
+
+#: service/voice_service.py:27
+msgid "Voice was saved"
+msgstr ""
+
+#: service/voice_service.py:42
+msgid "Voice data was edited"
+msgstr ""
+
+#: service/voice_service.py:47 service/voice_service.py:72
+#: service/voice_service.py:92
+msgid "Voice not found"
+msgstr ""
+
+#: service/voice_service.py:66
+msgid "Voice was removed"
+msgstr ""
+
+#: util/decorator.py:22 util/decorator.py:87
+msgid "This operations should be done from user account"
+msgstr ""
+
+#: util/decorator.py:29 util/decorator.py:58 util/decorator.py:94
+msgid "Confirm your email"
+msgstr ""
+
+#: util/decorator.py:36 util/decorator.py:65 util/decorator.py:101
+msgid "Your organization is still not confirmed"
+msgstr ""
+
+#: util/decorator.py:108
+msgid "You are not organization admin"
+msgstr ""
+
+#: util/decorator.py:131
+msgid "admin token required"
+msgstr ""
+
